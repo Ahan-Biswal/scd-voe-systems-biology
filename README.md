@@ -120,8 +120,8 @@ This repository contains the complete analytical pipeline, reproducible code, pr
 
 #### Option A: Using Conda (Recommended)
 ```bash
-git clone https://github.com/<username>/<repo_name>.git
-cd <repo_name>
+git clone https://github.com/Ahan-Biswal/scd-voe-systems-biology.git
+cd scd-voe-systems-biology
 
 conda env create -f environment.yml
 conda activate scd_systems_biology

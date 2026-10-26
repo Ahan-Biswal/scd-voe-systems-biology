@@ -928,7 +928,7 @@ def create_document():
     add_body(
         "Data Availability: All raw and processed RNA-sequencing data analyzed in this study are publicly available in the NCBI Gene Expression "
         "Omnibus (GEO) under accession number GSE291257 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE291257). All computational "
-        "scripts and reproducible code workflows are archived at: https://github.com/example/SCD_systems_biology."
+        "scripts and reproducible code workflows are available at: https://github.com/Ahan-Biswal/scd-voe-systems-biology."
     )
     add_body(
         "Competing Interests: The authors declare that they have no competing financial or non-financial interests."
