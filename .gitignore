@@ -1,0 +1,48 @@
+# ==============================================================================
+# .gitignore for Sickle Cell Disease (SCD) Phase 1 Systems Biology Repository
+# ==============================================================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# --- R Environment & Session Dumps ---
+.RData
+.RDataTmp*
+.Rhistory
+.Rproj.user/
+*.Rproj
+
+# --- Large WGCNA Intermediate Matrices (>100MB, GitHub Limit) ---
+# Topological Overlap Matrix (TOM) block files generated locally during WGCNA
+*TOM*.RData
+*TOM*
+*.RDataTmp*
+
+# --- Local Archive & Deprecated Parameter Trials ---
+archive/
+*/archive/
+data/processed/archive/
+SCD_phase1/data/processed/archive/
+SCD_phase1/scripts/archive/
+
+# --- Scratch & Backup Files ---
+*.tmp
+*.bak
+*~
+~$*.docx
+*.swp
+*BACKUP*
+*backup*
+
+# --- OS Specific Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini

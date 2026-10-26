@@ -1,0 +1,2 @@
+"ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0006457","protein folding","8/68","156/8592",0.0512820512820513,6.47963800904977,6.16879699346326,2.89708709736347e-05,0.038705083620776,0.0386684888363882,"PDRG1/NUDC/CCDC47/ZPR1/HSPA8/HSPD1/HYOU1/CCT8",8

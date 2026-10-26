@@ -1,0 +1,8 @@
+[2026-08-18 11:18:54] SCRIPT: 01_build_CD45_VOE_power5.R
+  ACTION: Built CD45 VOE network at power5, deepSplit4
+  RESULT: 17213 genes, 42 samples, 22 modules incl grey
+
+[2026-08-18 11:21:20] SCRIPT: 02_stage2_switch_rewiring_power5.R
+  ACTION: Rebuilt module matching, switch table, kME rewiring table using power5 SS + power5 VOE
+  RESULT: 17213 genes compared; 7261 switched; 8650 stayed; 1302 grey-excluded
+
